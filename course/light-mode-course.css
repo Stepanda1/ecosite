@@ -1,0 +1,173 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, "Helvetica Neun", Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.wrapper-event {
+    background: #060050;
+    width: 100%;
+}
+
+.wrapper-menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 106px;
+    background: white;
+    width: 900px;
+}
+
+.logo {
+    height: 67px;
+    width: 67px;
+}
+
+.menu-element-bold {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.menu-element {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-element-tema {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-element-lang {
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* Line */
+
+.line {
+    height: 400px;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Btns */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 336px;
+    margin: auto;
+}
+
+.btn {
+    width: 155px;
+    height: 53px;
+    background-color: #00FF19;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.btn:hover {
+    background-color: #00FFFF;
+}
+
+.left{
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+/* Content */
+
+.content {
+    background-color: #D2FFD7;
+    height: 1200px;
+    margin-bottom: 35px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #060050;
+    color: white;
+    height: 282px;
+}
+
+.section {
+    display: flex;
+    padding-top: 53px;
+}
+
+.logo-footer {
+    width: 67px;
+    height: 67px;
+    margin-left: 53px;
+    padding-right: 393px;
+    padding-bottom: 131px;
+}
+
+.nav {
+    margin-right: 54px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.nav-title {
+    padding-bottom: 13px;
+}
+
+.nav-element {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.telephone {
+    padding-bottom: 13px;
+}
+
+.description {
+    padding-bottom: 13px;
+}
+
+.ecology-group {
+    margin-left: 53px;
+}
