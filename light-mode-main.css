@@ -604,7 +604,7 @@ footer {
         display: block;
         margin: 30px auto 0 auto;
         max-width: 400px;
-        font-size: 23px;
+        font-size: 22px;
     }
 }
 
@@ -627,6 +627,6 @@ footer {
     }
 
     .main-title {
-        font-size: 18px;
+        font-size: 23px;
     }
 }
