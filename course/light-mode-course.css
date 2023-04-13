@@ -117,15 +117,23 @@ html, body {
 
 .content {
     background-color: #D2FFD7;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 20px;
     margin-bottom: 35px;
 }
 
-b {
+.content b {
     font-weight: bold;
     color: #060050;
     font-size: 18px;
+}
+
+.content img {
+    width: 800px;
+    height: auto;
+}
+
+.content a {
+    text-decoration: none;
 }
 
 /* Footer */
