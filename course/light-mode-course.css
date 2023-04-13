@@ -30,18 +30,35 @@ html, body {
 
 /* Menu */
 
+.wrapper-menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
 .menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 106px;
-    background: white;
-    width: 900px;
+    justify-content: space-between;
 }
 
 .logo {
     height: 67px;
     width: 67px;
+}
+
+.menu-burger {
+    display: none;
+}
+
+.menu-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding-left: 30px;
+    margin-right: 20px;
 }
 
 .menu-element-bold {
@@ -68,8 +85,6 @@ html, body {
     background-color: transparent;
     border: none;
 }
-
-
 
 /* Line */
 
@@ -188,6 +203,16 @@ footer {
 }
 
 @media (max-width: 900px) {
+    
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper-event {
+        width: 100%;
+    }
+    
     .line {
         width: 90vw;
         height: auto;
