@@ -334,4 +334,8 @@ footer {
     .line {
         padding-top: 100px;
     }
+
+    .buttons {
+        width: 310px;
+    }
 }
