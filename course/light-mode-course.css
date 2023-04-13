@@ -143,23 +143,16 @@ html, body {
 
 /* Footer */
 
-.footer {
+footer {
     background-color: #060050;
     color: white;
-    height: 282px;
+    padding-bottom: 30px;
 }
 
 .section {
     display: flex;
     padding-top: 53px;
-}
-
-.logo-footer {
-    width: 67px;
-    height: 67px;
-    margin-left: 53px;
-    padding-right: 393px;
-    padding-bottom: 131px;
+    justify-content: space-around;
 }
 
 .nav {
@@ -172,6 +165,7 @@ html, body {
 
 .nav-title {
     padding-bottom: 13px;
+    font-weight: bold;
 }
 
 .nav-element {
@@ -180,7 +174,7 @@ html, body {
     font-size: 16px;
 }
 
-.telephone {
+.telephone{
     padding-bottom: 13px;
 }
 
@@ -189,5 +183,126 @@ html, body {
 }
 
 .ecology-group {
-    margin-left: 53px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+@media (max-width: 900px) {
+    .line {
+        width: 90vw;
+        height: auto;
+    }
+
+    img {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 700px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+    
+    .logo {
+        margin: 10px;
+        height: 80%;
+        width: auto;
+    }
+
+    .menu-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin: 20px;
+    }
+
+    .menu-burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .menu-burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .menu-burger.active span {
+        transform: scale(0);
+    }
+
+    .menu-burger::before,
+    .menu-burger::after {
+        content: '';
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menu-burger span {
+        position: absolute;
+        background-color: #000;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.7s ease 0s;
+    }
+
+    .menu-elements {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #D2FFD7;
+        z-index: -1;
+        display: block;
+        padding-top: 100px;
+        padding-left: 30px;
+        transition: all 0.7s ease 0s;
+        overflow: auto;
+    }
+
+    .menu-elements.active {
+        top: 0;
+    }
+
+    .menu {
+        background-color: white;
+        height: 80px;
+    }
+
+    .menu-element, .menu-element-bold, .menu-element-tema, .menu-element-lang {
+        z-index: 40;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .menu-burger::before {
+        top: 0;
+    }
+
+    .menu-burger::after {
+        bottom: 0;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper-event {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    img {
+        display: none;
+    }
 }
