@@ -128,12 +128,17 @@ html, body {
 }
 
 .content img {
-    width: 800px;
+    margin: auto;
+    width: 600px;
     height: auto;
 }
 
 .content a {
     text-decoration: none;
+}
+
+.content ol {
+    margin-left: 20px;
 }
 
 /* Footer */
