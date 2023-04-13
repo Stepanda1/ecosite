@@ -337,5 +337,6 @@ footer {
 
     .buttons {
         width: 310px;
+        margin: 0 2px;
     }
 }
