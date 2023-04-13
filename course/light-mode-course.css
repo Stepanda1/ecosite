@@ -330,4 +330,8 @@ footer {
     .content img {
         display: none;
     }
+
+    .line {
+        margin-top: 100px;
+    }
 }
