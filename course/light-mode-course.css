@@ -337,5 +337,8 @@ footer {
 
     .buttons {
         width: 315px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
     }
 }
