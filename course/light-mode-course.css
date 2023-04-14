@@ -163,6 +163,7 @@ html, body {
 .content table {
     border: 1px solid black;
     text-align: center;
+    width: 890px;
 }
 
 .content td {
@@ -234,6 +235,10 @@ footer {
     .content img {
         width: 90vw;
         margin: auto;
+    }
+
+    .content table {
+        width: 690px;
     }
 }
 
@@ -338,6 +343,10 @@ footer {
     .wrapper-event {
         width: 100%;
     }
+
+    .content table {
+        width: 440px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -354,5 +363,9 @@ footer {
         margin: auto;
         display: flex;
         justify-content: space-between;
+    }
+
+    .content table {
+        width: auto;
     }
 }
