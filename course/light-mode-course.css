@@ -160,6 +160,11 @@ html, body {
     margin-left: 20px;
 }
 
+.content table {
+    border: 1px solid black;
+    text-align: center;
+}
+
 /* Footer */
 
 footer {
