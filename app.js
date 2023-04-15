@@ -119,53 +119,46 @@ const results =
 //Массив с вопросами
 const questions =
     [
-        new Question("2 + 2 = ",
+        new Question("Какой вид фильтрации на данный момент считается самым эффективным?",
             [
-                new Answer("2", 0),
-                new Answer("3", 0),
-                new Answer("4", 1),
-                new Answer("0", 0)
+                new Answer("Макрофильтрация", 0),
+                new Answer("Нанофильтрация", 1),
+                new Answer("Микрофильтрация", 0),
+                new Answer("Ультрафильтрация", 0)
             ]),
 
-        new Question("2 * 2 = ",
+        new Question("Какой газ выделяется автомобильными выхлопами и является крайне опасным для человека?",
             [
-                new Answer("2", 0),
-                new Answer("3", 0),
-                new Answer("4", 1),
-                new Answer("0", 0)
+                new Answer("Угарный газ", 1),
+                new Answer("Углекислый газ", 0),
+                new Answer("Оксид серы", 0),
+                new Answer("Фтор", 0)
             ]),
 
-        new Question("2 / 2 = ",
+        new Question("Комплекс работ по восстановлению почвы или водоёма сроком до 15 лет - это",
             [
-                new Answer("0", 0),
-                new Answer("1", 1),
-                new Answer("2", 0),
-                new Answer("3", 0)
+                new Answer("Орошение", 0),
+                new Answer("Эрозия", 0),
+                new Answer("Почвообразование", 0),
+                new Answer("Рекультивация", 1)
             ]),
 
-        new Question("2 - 2 = ",
-            [
-                new Answer("0", 1),
-                new Answer("1", 0),
-                new Answer("2", 0),
-                new Answer("3", 0)
-            ]),
-
-        new Question("2 + 2 * 2 = ",
-            [
-                new Answer("4", 0),
-                new Answer("6", 1),
-                new Answer("8", 0),
-                new Answer("10", 0)
-            ]),
-
-        new Question("2 + 2 / 2 = ",
+        new Question("Сколько тонн пыли уничтожает 1 га леса?",
             [
                 new Answer("1", 0),
-                new Answer("2", 0),
-                new Answer("3", 1),
-                new Answer("4", 0)
-            ])
+                new Answer("500", 0),
+                new Answer("100", 1),
+                new Answer("80", 0)
+            ]),
+
+        new Question("Штраф за убийство благородного оленя составляет",
+            [
+                new Answer("80000", 0),
+                new Answer("70000", 1),
+                new Answer("40000", 0),
+                new Answer("120000", 0)
+            ]),
+
     ];
 
 //Сам тест
