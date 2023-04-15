@@ -1,3 +1,7 @@
+const headElem = document.getElementById("head");
+const buttonsElem = document.getElementById("buttons");
+const pagesElem = document.getElementById("pages");
+
 //Класс, который представляет сам тест
 class Quiz {
     constructor(type, questions, results) {
@@ -27,7 +31,7 @@ class Quiz {
 
         let correct = -1;
 
-        //Если было добавлено хотя бы одно очко, то считаем, что ответ верный
+        //Если было добавлено хотя одно очко, то считаем, что ответ верный
         if (value >= 1) {
             correct = index;
         }
@@ -103,8 +107,6 @@ class Result {
     }
 }
 
-
-
 //Массив с результатами
 const results =
     [
@@ -123,13 +125,51 @@ const questions =
                 new Answer("3", 0),
                 new Answer("4", 1),
                 new Answer("0", 0)
+            ]),
+
+        new Question("2 * 2 = ",
+            [
+                new Answer("2", 0),
+                new Answer("3", 0),
+                new Answer("4", 1),
+                new Answer("0", 0)
+            ]),
+
+        new Question("2 / 2 = ",
+            [
+                new Answer("0", 0),
+                new Answer("1", 1),
+                new Answer("2", 0),
+                new Answer("3", 0)
+            ]),
+
+        new Question("2 - 2 = ",
+            [
+                new Answer("0", 1),
+                new Answer("1", 0),
+                new Answer("2", 0),
+                new Answer("3", 0)
+            ]),
+
+        new Question("2 + 2 * 2 = ",
+            [
+                new Answer("4", 0),
+                new Answer("6", 1),
+                new Answer("8", 0),
+                new Answer("10", 0)
+            ]),
+
+        new Question("2 + 2 / 2 = ",
+            [
+                new Answer("1", 0),
+                new Answer("2", 0),
+                new Answer("3", 1),
+                new Answer("4", 0)
             ])
     ];
 
 //Сам тест
 const quiz = new Quiz(1, questions, results);
-
-
 
 Update();
 
