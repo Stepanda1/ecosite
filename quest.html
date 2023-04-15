@@ -12,23 +12,87 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="menu">
-            <img class="logo" src="images/logo_2.png" alt="logo">
-            <div class="menu-burger">
-                <span></span>
+    <div class="wrapper-menu">
+        <div class="container">
+            <nav class="menu">
+                <img class="logo" src="images/logo_2.png" alt="logo">
+                <div class="menu-burger">
+                    <span></span>
+                </div>
+                <div class="menu-elements">
+                    <a href="index.html" class="menu-element">Главная</a>
+                    <a href="learn.html" class="menu-element-bold">Обучение</a>
+                    <a href="quest.html" class="menu-element">Квесты</a>
+                    <a href="event.html" class="menu-element">События</a>
+                    <a href="blog.html" class="menu-element">Блог</a>
+                    <button class="menu-element-tema"><img src="images/month.png" alt="month"></button>
+                    <button class="menu-element-lang">eng</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <main class="main">
+            <div class="quiz__head">
+                <div class="head__content" id="head">Какой цвет есть в радуге?</div>
             </div>
-            <a href="index.html" class="menu-element-bold">Главная</a>
-            <a href="learn.html" class="menu-element">Обучение</a>
-            <a href="quest.html" class="menu-element">Квесты</a>
-            <a href="event.html" class="menu-element">События</a>
-            <a href="blog.html" class="menu-element">Блог</a>
-            <button class="menu-element-tema"><img src="images/month.png" alt="month"></button>
-            <button class="menu-element-lang">eng</button>
-        </nav>
+            <div class="quiz__body">
+                <div class="buttons">
+                    <div class="buttons__content" id="buttons">
+                        <button class="button">Белый</button><br>
+                        <button class="button button_correct">Синий</button><br>
+                        <button class="button">Коричневый</button><br>
+                        <button class="button">Чёрный</button><br>
+                    </div>
+                </div>
+
+                <div class="quiz__footer">
+                    <div class="footer__content" id="pages">0 / 0</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div class="wrapper-event">
+        <div class="container">
+            <footer>
+                <section class="section">
+                    <div class="nav">
+                        <div class="nav-title">Навигация</div>
+                        <a href="index.html" class="nav-element">Главная</a>
+                        <br>
+                        <a href="learn.html" class="nav-element">Обучение</a>
+                        <br>
+                        <a href="quest.html" class="nav-element">Квесты</a>
+                        <br>
+                        <a href="event.html" class="nav-element">События</a>
+                        <br>
+                        <a href="blog.html" class="nav-element">Блог</a>
+                    </div>
+                    <div class="contacts">
+                        <div class="telephone">
+                            <div class="description">Telephone</div>
+                            <div class="number">+7 (912) 486-93-47</div>
+                        </div>
+                        <div class="email">
+                            <div class="description">Email</div>
+                            <div class="address">stepanda3@yandex.ru</div>
+                        </div>
+                    </div>
+                </section>
+                <div class="ecology-group">
+                    © 2023 Ecology group
+                </div>
+            </footer>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="slider-backup.js"></script>
     <script src="burger.js"></script>
+    <script src="test.js"></script>
 </body>
 
 </html>
