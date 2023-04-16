@@ -1,5 +1,5 @@
 $(document).ready(function () {
     if (this.score == 5) {
-        $('.download').toggleClass('active');
+        $('.download').toggleClass('.active');
     };
 });
