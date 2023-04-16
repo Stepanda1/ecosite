@@ -111,9 +111,9 @@ class Result {
 const results =
     [
         new Result("Вам многому нужно научиться", 0),
-        new Result("Вы уже неплохо разбираетесь", 2),
-        new Result("Ваш уровень выше среднего", 4),
-        new Result("Вы в совершенстве знаете тему", 6)
+        new Result("Вы уже неплохо разбираетесь", 1),
+        new Result("Ваш уровень выше среднего", 3),
+        new Result("Вы в совершестве знаете тему, заберите свой сертификат", 5)
     ];
 
 //Массив с вопросами
@@ -242,4 +242,8 @@ function Click(index) {
 
     //Ждём секунду и обновляем тест
     setTimeout(Update, 1000);
+}
+
+if (value == 5) {
+    window.location.href = 'index.html';
 }
