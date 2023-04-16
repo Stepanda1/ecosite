@@ -182,12 +182,6 @@ body, html
 }
 
 .download {
-    height: 30px;
-    width: 200px;
-    background-color: #060050;
-    color: white;
-    border-radius: 30px;
-    margin-bottom: 30px;
     display: none;
 }
 
@@ -195,6 +189,12 @@ body, html
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30px;
+    width: 200px;
+    background-color: #060050;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 /* Footer */
