@@ -243,7 +243,3 @@ function Click(index) {
     //Ждём секунду и обновляем тест
     setTimeout(Update, 1000);
 }
-
-if (value == 5) {
-    window.location.href = 'index.html';
-}
