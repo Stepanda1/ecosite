@@ -172,6 +172,26 @@ body, html
 	background: #B3B3B3;
 }
 
+/* Download */
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download {
+    height: 30px;
+    width: 120px;
+    background-color: #060050;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 /* Footer */
 
 footer {
