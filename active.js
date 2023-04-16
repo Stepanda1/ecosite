@@ -1,5 +1,5 @@
-// $(document).ready(function () {
-//     $('.menu-burger').click(function (event) {
-//         $('.download').toggleClass('active');
-//     });
-// });
+$(document).ready(function () {
+    if (this.score == 5) {
+        $('.download').toggleClass('active');
+    };
+});
