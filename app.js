@@ -1,6 +1,7 @@
 const headElem = document.getElementById("head");
 const buttonsElem = document.getElementById("buttons");
 const pagesElem = document.getElementById("pages");
+let elem = document.querySelector("#download")
 
 //Класс, который представляет сам тест
 class Quiz {
@@ -107,6 +108,8 @@ class Result {
     }
 }
 
+
+
 //Массив с результатами
 const results =
     [
@@ -115,6 +118,10 @@ const results =
         new Result("Ваш уровень выше среднего", 3),
         new Result("Вы в совершестве знаете тему, заберите свой сертификат", 5)
     ];
+
+if (value == 5) {
+    elem.classList.toggle(".acitve");
+}
 
 //Массив с вопросами
 const questions =

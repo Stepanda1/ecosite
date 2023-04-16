@@ -178,6 +178,7 @@ body, html
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .download {
@@ -186,10 +187,14 @@ body, html
     background-color: #060050;
     color: white;
     border-radius: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.download.acitve {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 /* Footer */
