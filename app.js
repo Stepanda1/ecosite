@@ -201,6 +201,9 @@ function Update() {
         buttonsElem.innerHTML = "";
         headElem.innerHTML = quiz.results[quiz.result].text;
         pagesElem.innerHTML = "Очки: " + quiz.score;
+        if (quiz.score == 5) {
+            document.querySelector('.download').removeAttribute('id');
+        }
     }
 }
 

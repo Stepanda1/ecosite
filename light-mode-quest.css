@@ -182,19 +182,20 @@ body, html
 }
 
 .download {
-    display: none;
-}
-
-.download.acitve {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 40px;
     width: 200px;
-    background-color: #060050;
+    background: #060050;
     color: white;
-    border-radius: 30px;
+    border-radius: 60px;
     margin-bottom: 30px;
+    border: none;
+}
+
+#active {
+    display: none;
 }
 
 /* Footer */
