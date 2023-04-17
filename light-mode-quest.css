@@ -198,6 +198,10 @@ body, html
     display: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Footer */
 
 footer {
