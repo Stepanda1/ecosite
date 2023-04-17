@@ -204,6 +204,9 @@ function Update() {
         if (quiz.score == 5) {
             document.querySelector('.download').removeAttribute('id');
         }
+        else {
+            document.querySelector('.reset').removeAttribute('id');
+        }
     }
 }
 
