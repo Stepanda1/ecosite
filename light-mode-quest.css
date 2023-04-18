@@ -194,6 +194,19 @@ body, html
     border: none;
 }
 
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background: #060050;
+    color: white;
+    border-radius: 60px;
+    margin-bottom: 30px;
+    border: none;
+}
+
 #active {
     display: none;
 }
