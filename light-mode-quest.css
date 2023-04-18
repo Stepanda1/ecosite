@@ -106,7 +106,6 @@ body, html
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-    margin-top: 200px;
 }
 
 .quiz-frame
@@ -120,6 +119,7 @@ body, html
 	font-size: 20pt;
 	margin: 10px;
 	margin-bottom: 50px;
+    margin-top: 200px;
 }
 
 .head__content 
