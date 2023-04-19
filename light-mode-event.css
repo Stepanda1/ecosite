@@ -303,6 +303,10 @@ footer {
         width: 100%;
     }
 
+    .title {
+        font-size: 20px;
+    }
+
     .companies {
         flex-direction: column;
     }
