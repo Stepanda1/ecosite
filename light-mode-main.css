@@ -335,8 +335,8 @@ html, body {
 .links {
     display: flex;
     justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 /* Blog */
@@ -582,7 +582,7 @@ footer {
     .links {
         display: flex;
         flex-direction: column;
-        height: 400px;
+        height: 250px;
         justify-content: space-between;
     }
     
