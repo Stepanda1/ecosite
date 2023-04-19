@@ -92,6 +92,43 @@ body, html
     border: none;
 }
 
+/* Events */
+
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    color: black;
+    font-size: 36px;
+    padding-top: 68px;
+    margin-bottom: 88px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+}
+
+.company {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.company img  {
+    margin-bottom: 25px;
+}
+
+.company a {
+    font-size: 26px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 /* Footer */
 
 footer {
@@ -135,7 +172,7 @@ footer {
 
 .ecology-group {
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 @media (max-width: 900px) {
