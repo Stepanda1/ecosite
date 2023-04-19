@@ -23,8 +23,13 @@ body, html
     margin: auto;
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .wrapper-event {
     width: 100%;
+    background-color: #060050;
 }
 
 .wrapper-menu {
@@ -97,6 +102,7 @@ body, html
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .title {
@@ -126,9 +132,13 @@ body, html
 
 .company a {
     font-size: 26px;
-    color: black;
+    color: gray;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.company a:hover {
+    color: #000;
 }
 
 /* Footer */
