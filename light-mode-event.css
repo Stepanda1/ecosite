@@ -24,7 +24,6 @@ body, html
 }
 
 .wrapper-event {
-    background: #060050;
     width: 100%;
 }
 
@@ -115,7 +114,10 @@ body, html
 
 .company {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .company img  {
@@ -172,7 +174,7 @@ footer {
 
 .ecology-group {
     margin-left: 3%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 @media (max-width: 900px) {
