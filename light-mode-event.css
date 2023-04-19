@@ -306,4 +306,8 @@ footer {
     .event {
         flex-direction: column;
     }
+
+    .company {
+        text-align: center;
+    }
 }
