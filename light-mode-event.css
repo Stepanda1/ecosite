@@ -110,6 +110,7 @@ body, html
     font-size: 36px;
     padding-top: 68px;
     margin-bottom: 88px;
+    text-align: center;
 }
 
 .companies {
@@ -131,7 +132,7 @@ body, html
 }
 
 .company a {
-    font-size: 26px;
+    font-size: 20px;
     color: gray;
     text-transform: uppercase;
     text-decoration: none;
@@ -300,5 +301,9 @@ footer {
 
     .wrapper-event {
         width: 100%;
+    }
+
+    .event {
+        flex-direction: column;
     }
 }
