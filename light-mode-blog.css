@@ -1,0 +1,261 @@
+body, html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+    font-family: Arial, "Helvetica Neun", Helvetica, sans-serif;
+	background: #f9f9f9;
+	color: #111;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper-event {
+    width: 100%;
+    background-color: #060050;
+}
+
+.wrapper-menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+/* Menu */
+
+.wrapper-menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 106px;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 67px;
+    width: 67px;
+}
+
+.menu-burger {
+    display: none;
+}
+
+.menu-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.menu-element-bold {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.menu-element {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-element-tema {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-element-lang {
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+/*  */
+
+/* Footer */
+
+footer {
+    background-color: #060050;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.section {
+    display: flex;
+    padding-top: 53px;
+    justify-content: space-around;
+}
+
+.nav {
+    margin-right: 54px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.nav-title {
+    padding-bottom: 13px;
+    font-weight: bold;
+}
+
+.nav-element {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.telephone{
+    padding-bottom: 13px;
+}
+
+.description {
+    padding-bottom: 13px;
+}
+
+.ecology-group {
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+@media (max-width: 900px) {
+    
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper-event {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+    
+    .logo {
+        margin: 10px;
+        height: 80%;
+        width: auto;
+    }
+
+    .menu-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin: 20px;
+    }
+
+    .menu-burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .menu-burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .menu-burger.active span {
+        transform: scale(0);
+    }
+
+    .menu-burger::before,
+    .menu-burger::after {
+        content: '';
+        background-color: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menu-burger span {
+        position: absolute;
+        background-color: #000;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.7s ease 0s;
+    }
+
+    .menu-elements {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #D2FFD7;
+        z-index: -1;
+        display: block;
+        padding-top: 100px;
+        padding-left: 30px;
+        transition: all 0.7s ease 0s;
+        overflow: auto;
+    }
+
+    .menu-elements.active {
+        top: 0;
+    }
+
+    .menu {
+        background-color: white;
+        height: 80px;
+    }
+
+    .menu-element, .menu-element-bold, .menu-element-tema, .menu-element-lang {
+        z-index: 40;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .menu-burger::before {
+        top: 0;
+    }
+
+    .menu-burger::after {
+        bottom: 0;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper-event {
+        width: 100%;
+    }
+}
