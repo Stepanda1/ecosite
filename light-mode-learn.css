@@ -287,7 +287,7 @@ html, body {
 
 /* Backup */
 
-.slick-list {
+/* .slick-list {
     overflow: hidden;
 }
 
@@ -344,6 +344,19 @@ html, body {
 
 .backup {
     font-size: 22px;
+} */
+
+.backup {
+    border: none;
+    background-color: #060050;
+    width: 300px;
+    height: 40px;
+}
+
+.backup a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
