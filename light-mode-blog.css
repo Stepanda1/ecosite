@@ -96,7 +96,11 @@ body, html
     border: none;
 }
 
-/*  */
+/* Input */
+
+.input {
+    padding-top: 100px;
+}
 
 /* Footer */
 
