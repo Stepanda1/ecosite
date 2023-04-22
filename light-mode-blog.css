@@ -109,7 +109,8 @@ body, html
     border-radius: 30px;
     display: block;
     margin: auto;
-    height: 50px;
+    height: 60px;
+    background: url(/images/search.png) no-repeat center left;
 }
 
 /* Footer */
