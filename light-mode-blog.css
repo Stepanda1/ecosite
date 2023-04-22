@@ -98,8 +98,11 @@ body, html
 
 /* Input */
 
+.form {
+    padding-top: 200px;
+}
+
 .input {
-    margin-top: 200px;
     box-sizing: border-box;
     width: 70%;
     border: none;
