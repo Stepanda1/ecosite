@@ -99,19 +99,50 @@ body, html
 /* Input */
 
 .form {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .input {
     box-sizing: border-box;
+    padding-left: 70px;
+    font-size: 22px;
     width: 70%;
     border: none;
     border-radius: 30px;
     display: block;
     margin: auto;
     height: 60px;
-    background: url(/images/search.png) no-repeat center left;
+    background: url(images/search.png) no-repeat center left;
+    background-position-x: 30px;
+    background-color: #fff;
+    outline: none;
 }
+
+/* Data */
+
+.data {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 33px;
+    margin-left: 150px;
+}
+
+.content {
+    background-color: #D2FFD7;
+    width: 70%;
+    margin: 42px auto;
+    padding: 36px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 20px;
+}
+
 
 /* Footer */
 
