@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "Мои работы",
+			"path": "../../Мои работы"
+		},
+		{
+			"name": "sd.code практика",
+			"path": "../../Мои работы/sd.code практика"
+		},
+		{
+			"path": "../../js начало"
+		},
+		{
+			"path": "../../МЭО"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Test dark mode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ecosite"
+	}
+}
